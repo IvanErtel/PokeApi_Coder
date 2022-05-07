@@ -1,7 +1,7 @@
 const poke_container = document.getElementById('poke_container');
 var pokeForm = document.getElementById('pokemon').value;
 const pokeContent = document.getElementById('pokemonContent');
-const pokemon_number=50
+const pokemon_number=100
 
 
 const fetchPokemons = async () => {
@@ -12,10 +12,12 @@ const fetchPokemons = async () => {
         await getPokemon(i)
 
     }
+    
 }
 
+
 const getPokemon = async (id) => {
-    const url = 'https://pokeapi.co/api/v2/pokemon/' + id.toString()
+    const url = 'https://pokeapi.co/api/v2/pokemon/' + id.toString() 
     const res = await fetch(url)
     const pokemon = await res.json()
 
@@ -54,6 +56,7 @@ const createPokemonCard = (pokemon) => {
         poke_container.appendChild(pokemonEl)
         
     }
+    
     
 }
 
