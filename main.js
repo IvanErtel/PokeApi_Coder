@@ -12,6 +12,7 @@ const fetchPokemons = async () => {
         await getPokemon(i)
 
     }
+
     
 }
 
