@@ -152,3 +152,33 @@ h1{
 .fairy{
     background-color: pink;
 }
+
+#btnSiguiente{
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    padding-top: 5px;
+    background-color: rgb(62, 60, 60);
+    box-shadow: 20px 3px 150px rgb(16, 12, 12);
+    box-shadow: 20px 3px 700px rgb(16, 12, 12);
+    
+}
+#btnAnterior{
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    padding-top: 5px;
+    background-color: rgb(62, 60, 60);
+    box-shadow: 20px 3px 150px rgb(16, 12, 12);
+    box-shadow: 20px 3px 700px rgb(16, 12, 12);
+    
+}
+#btnAnterior:hover{
+    transform: scale(1.1);
+}
+#btnSiguiente:hover{
+    transform: scale(1.1);
+}
+.divBtn{
+   padding: 30px;
+}
