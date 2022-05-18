@@ -1,6 +1,3 @@
 # PokeApi_Coder
-se consume api de pokemon desde pokéAPI 
-se le agreaga titulo. 
-se crean cards para cada pokemon.
-se crea buscador (en proceso)
-se crea alerta con descripción de cada pokémon(en proceso)
+Proyecto final del curso realizado en coder house. se consume la API de PokeAPI. Se muestra pokemon con su nombre tipo y hp. se agrega un buscador donde podras buscar dentro de los 151 iniciales.(si no los muestras con el paginado al menos una vez el bucador no encontrara el pokemon, problema a corregir). se agrega pagina donde recorreras en la misma pagina los pokemon existentes en la api, tanto si quieres ir para adelante o si quieres volver a ver a los anteriores. el proyecto se ira optimizando a lo largo del tiempo. para que muestre directamente todos los pokemon que existen en la api deberas cambiar la variable pokemon_number y asignarle el valor que desees.
+en este proyecto se utilizaron, metodo de array,funciones y condicionales, generacion de DOM de forma dinamica, sintaxis avanzada, libreria sweetAlert2 para las alertas, manejo de promesa fetch, async await, cargando los datos desde una API externa.
