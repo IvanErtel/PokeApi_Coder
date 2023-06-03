@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ultra&display=swap" rel="stylesheet"> 
-    
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ultra&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    
+
     <title>Pokedex Web</title>
 </head>
+
 <body id="body">
-     <div class="menu">
+    <div class="menu">
         <h1>Pokedex web</h1>
-     </div>
-      
+        <div class="menu">
+            <button id="btnFavorites">Favorites</button>
+        </div>
+    </div>
+
 
     <div id="search">
-      <input type="text" id="pokemon" placeholder="Ingrese pokemon o ID">
-      <button onclick="fetchPokemons()">
-          <img src="./pokebola.png" alt="pokeball" class="buttonimg" >
-      </button>
-   </div>
-   
+        <input type="text" id="pokemon" placeholder="Ingrese pokemon o ID">
+        <button onclick="searchPokemon()">
+            <img src="./pokebola.png" alt="pokeball" class="buttonimg">
+        </button>
+    </div>
+
     <div id="poke_container" class="poke_container"></div>
     <div class="divBtn">
         <button id="btnAnterior" class="btnAnterior" hidden>Anterior</button>
         <button id="btnSiguiente" class="btnSiguiente">Siguiente</button>
     </div>
-    
 
-    
+
+
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./main.js"></script>
 </body>
+
 </html>

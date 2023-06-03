@@ -111,7 +111,7 @@ h1{
     transition: all .2s ease-in-out;
 }
 .move:hover {
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 .fire{
     background-color: rgb(255, 5, 5);
@@ -182,3 +182,16 @@ h1{
 .divBtn{
    padding: 30px;
 }
+.favorite-button img {
+    width: 20px; /* Ajusta el ancho deseado */
+    height: 20px; /* Ajusta la altura deseada */
+  }
+  .img-container {
+    position: relative;
+  }
+  
+  .favorite-button {
+    position: absolute;
+    top: 5px; /* Ajusta la posición vertical */
+    right: 5px; /* Ajusta la posición horizontal */
+  }
